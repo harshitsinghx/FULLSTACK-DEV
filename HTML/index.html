@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My bookmarks</title>
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+</head>
+
+<body>
+    <h1>My bookmarks h1</h1>
+    <h2>Primary Bookmarks</h2>
+    <p><a href="https://www.google.com" target="_blank">Google</a></p>
+    <p><a href="https://www.youtube.com">Youtube</a></p>
+    <p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
+    <h2>Secondary bookmarks</h2>
+    <p><a href="https://www.wikipedia.com">wikipedia</a></p>
+    <p><a href="https://www.stakeholder.com">stakeholder</a></p>
+
+    <img width="230" height="230" src="Screenshot_5-3-2026_233630_www.etsy.com.jpeg" alt="BMW image">
+
+    <br>
+    <!-- Table -->
+    <table border="2">
+        <caption>Student details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>Section</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Harshit</td>
+                <td>CSE</td>
+                <td>16</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Gunjan</td>
+                <td>CSE</td>
+                <td>11</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- LIst -->
+    <!--Unordered list -->
+    <ul type="square">
+        <li>Harshit</li>
+        <li>ROHIT</li>
+    </ul>
+    <!-- Ordered list -->
+    <ol type="I">
+        <li>HArshit</li>
+        <li>pari</li>
+    </ol>
+    <!-- defination list -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper text markup language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading style sheet</dd>
+    </dl>
+    <!-- FORMs -->
+    <h1>form to apply in bgmi competition</h1>
+    <form action="post">
+        <!-- get request mai jyada data nhi daalte/bhejte par post request mai bhej sakte hai -->
+        <div>
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" name="username" placeholder="Enter your name">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Classic" name="matches" value="yes">
+            <label for="Classic">Classic</label>
+            <input type="checkbox" id="TDM" name="matches" value="yes">
+            <label for="TDM">TDM</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50" placeholder="enter here"></textarea>
+        </div>
+        <div>
+            <select name="teams" id="">
+                <option value="Solo">Solo</option>
+                <option value="Duo">Duo</option>
+                <option value="Squad">Squad</option>
+            </select>
+        </div>
+    </form>
+    <!-- semantic tag -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>What is Semantic tag</h1>
+    </main>
+
+    <footer>
+        Copyright CWH|All right reserve
+    </footer>
+
+    <!-- Inline element and block elements -->
+    <!-- Inlinec element jitni need h utni space leta h
+    or block element mai puri line ki space leta h naya
+    content next line se start hoga -->
+
+    <!-- ID and CLASS -->
+    <!-- ID uniquely identify karti h kisi element ko or
+      class ek element ki multiple bhi ho sakti h or multiple
+      element ki same class bhi ho sakti -->
+
+    <div id="firstdiv" class="red bg_yellow">first</div>
+    <div id="seconddiv">Second</div>
+    <span class="red">Third</span>
+    <br>
+
+    <!-- Media tag -->
+
+    <video src="THIS IS 4K MARVEL (Spider-Man).mp4" height="255" controls loop mute></video>
+    <audio src=""></audio>
+    <iframe src="" frameborder="0"></iframe>
+
+    <!-- HTML ENTITIES -->
+    3>4
+    this is the code for paragraph <p></p>
+    this is the code for paragraph &lt;p&gt;&lt;/p&gt;
+    <pre>
+        <p>this is a para</p>
+        
+        
+        this is after few new lines     and some more
+    </pre>
+    <h4>Copyright &copy;&nbsp;&nbsp;&nbsp;&nbspharshit</h4>  
+
+    <blockquote>Quotation text</blockquote>
+    <pre><code>Write your code here</code></pre>
+
+</body>
+
+</html>
